@@ -11,7 +11,7 @@ This portfolio is ideal for developers, designers, and creatives who want a resp
 - 🌐 **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
 - 💭 **Smooth Animations**: Powered by Framer Motion for fluid transitions and effects.
 - 🎨 **Tailwind CSS Styling**: Clean, utility-first CSS framework for fast development.
-- 🎓 **Project Showcase**: Highlight your best work with dynamic project cards.
+- 🎓 **Project Showcase**: Highlight my projects.
 
 ## 🛠️ Development Details
 
