@@ -12,7 +12,6 @@ This portfolio is ideal for developers, designers, and creatives who want a resp
 - 💭 **Smooth Animations**: Powered by Framer Motion for fluid transitions and effects.
 - 🎨 **Tailwind CSS Styling**: Clean, utility-first CSS framework for fast development.
 - 🎓 **Project Showcase**: Highlight your best work with dynamic project cards.
-- 📖 **Contact Form**: Easily collect messages from visitors with a built-in form.
 
 ## 🛠️ Development Details
 
@@ -44,8 +43,8 @@ npm start
 Open http://localhost:3000 in your browser.
 
 ## 🛠️ Planned Improvements
--💡 **Dark Mode**: Toggle between light and dark themes.
--👨‍💼 **Portfolio Filtering**: Categorize projects for easier navigation.
+- 💡 **Dark Mode**: Toggle between light and dark themes.
+- 👨‍💼 **Portfolio Filtering**: Categorize projects for easier navigation.
 
 ## 🤝 Contributing
 We welcome contributions! 🎉 Fork the repository, create your branch, and submit a pull request. Suggestions and feedback are always appreciated. 💡
