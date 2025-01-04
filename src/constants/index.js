@@ -5,7 +5,12 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a motivated and passionate developer with a strong foundation in C#, .NET, and Unity, as well as experience in web development using React, Tailwind CSS, and Framer Motion. I have also learned Java, further expanding my programming skill set. I take pride in writing clean, well-structured code and delivering high-quality projects that meet expectations. Always eager to learn and adapt to new challenges, I enjoy creating effective solutions that are both functional and visually appealing. `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a curious and adaptable developer who enjoys creating projects that are both practical and visually engaging. I’m always excited to take on new challenges, learn new skills, and find better ways to solve problems. I take pride in staying focused, working hard, and delivering projects that I can be proud of.  
+
+Outside of coding, I’m an active chess player and a member of a local chess club, where I enjoy sharpening my strategic thinking. I’m also an amateur pianist who loves exploring melodies and a big fan of Japanese culture, from its art and traditions to its modern innovations.  
+
+Whether I’m building software, playing chess, or learning something new, I’m always looking for ways to improve and stay inspired.`;
+
 
 export const EXPERIENCES = [
   {
