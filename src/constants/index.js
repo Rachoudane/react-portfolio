@@ -40,34 +40,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Pearl et Pluthon",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A work-in-progress 2D game inspired by my own two cats. Guide Pearl and Pluthon on a quest to retrieve their favorite toy—a red ball—taken by Rufus, the residence's guard dog. Explore diverse locations, overcome obstacles, and outsmart Rufus to reunite the cats with their cherished toy.",
+    technologies: ["Unity", "C#"],
   },
   {
-    title: "Task Management App",
+    title: "2D Chess Game",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A classic 2D chess video game built with Unity, designed to showcase polished gameplay mechanics, intuitive controls, and a clean, modern UI.",
+    technologies: ["Unity", "C#"],
   },
   {
-    title: "Portfolio Website",
+    title: "React Portfolio",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This current website—a responsive and modern portfolio built with React, designed to showcase projects, skills, and animations with smooth transitions and clean styling.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Expense Tracker",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A complete expense tracker application built with ASP.NET Core MVC, designed for tracking and managing personal finances efficiently. Features include budget management, expense categorization, and detailed reporting.",
+    technologies: ["ASP.NET Core", "C#", "MVC"],
   },
 ];
+
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
