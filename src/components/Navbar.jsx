@@ -10,7 +10,10 @@ const Navbar = () => {
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <FaLinkedin />
-            <FaGithub />
+            {/* Wrap GitHub icon in anchor tag to redirect */}
+            <a href="https://github.com/Rachoudane" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+            </a>
         </div>
     </nav>
   );
