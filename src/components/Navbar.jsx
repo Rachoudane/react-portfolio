@@ -9,7 +9,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
+            <a href="https://www.linkedin.com/in/marouanebelkhdir/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             {/* Wrap GitHub icon in anchor tag to redirect */}
             <a href="https://github.com/Rachoudane" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
