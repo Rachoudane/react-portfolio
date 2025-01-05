@@ -5,8 +5,25 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Marouane Dev";
+  }, []);
+
+  const changeFavicon = (iconURL) => {
+    let link = document.querySelector("link[rel~='icon']"); // Find the existing favicon
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = "icon";
+      document.head.appendChild(link);
+    }
+    link.href = iconURL; // Set the new favicon URL
+  };
+
+  changeFavicon("/favicon.ico");
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">      
