@@ -18,7 +18,7 @@ const HeroAbout = () => {
         {/* Image (Left) - Smaller sizing */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
+          animate={{ opacity: 1, scale: 1.5 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full lg:w-2/5 lg:order-first" // Changed to w-2/5 (40% width)
         >
