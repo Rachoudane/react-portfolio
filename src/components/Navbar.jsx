@@ -1,5 +1,5 @@
 import logo from "../assets/MarouaneBelkhdirLogo.png";
-import { FaLinkedin, FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si"; // Correct import from "si" package
 
 const Navbar = () => {
   return (
@@ -11,16 +11,16 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Right: Fiverr Link */}
+      {/* Right: Fiverr Gig Link */}
       <div className="flex items-center gap-2">
         <a
           href="https://www.fiverr.com/s/yvbB1PG"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center text-gray-700 hover:text-[#1DBF73]"
+          className="flex items-center text-gray-700 hover:text-[#1DBF73] transition-colors"
         >
           <span className="mr-2 font-medium">Hire Me</span>
-          <FaExternalLinkSquareAlt className="text-xl" />
+          <SiFiverr className="text-2xl" /> {/* Correct Fiverr icon */}
         </a>
       </div>
     </nav>
