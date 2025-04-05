@@ -3,13 +3,31 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a motivated and passionate developer with a strong foundation in C#, .NET, and Unity, as well as experience in web development using React, Tailwind CSS, and Framer Motion. I have also learned Java, further expanding my programming skill set. I take pride in writing clean, well-structured code and delivering high-quality projects that meet expectations. Always eager to learn and adapt to new challenges, I enjoy creating effective solutions that are both functional and visually appealing. `;
+export const HEROABOUT_TEXT = `
+I'm a passionate Flutter developer specializing in crafting beautiful, high-performance cross-platform mobile applications. With expertise in Dart and the Flutter framework, I build apps that deliver native-like experiences on both iOS and Android platforms.
 
-export const ABOUT_TEXT = `I'm a curious and adaptable developer who enjoys creating projects that are both practical and visually engaging. I’m always excited to take on new challenges, learn new skills, and find better ways to solve problems. I take pride in staying focused, working hard, and delivering projects that I can be proud of.  
+My development approach combines:
+- Clean, maintainable code architecture
+- Responsive UI/UX design principles
+- State management solutions (Provider, Bloc, Riverpod)
+- Firebase integration for backend services
+- Custom animations and fluid transitions
 
-Outside of coding, I’m an active chess player and a member of a local chess club, where I enjoy sharpening my strategic thinking. I’m also an amateur pianist who loves exploring melodies and a big fan of Japanese culture, from its art and traditions to its modern innovations.  
+I take pride in staying at the forefront of Flutter's ecosystem, constantly exploring new packages and best practices. My apps are not just functional - they're polished experiences with attention to detail in every pixel and interaction.
 
-Whether I’m building software, playing chess, or learning something new, I’m always looking for ways to improve and stay inspired.`;
+Beyond coding, I'm an active contributor to Flutter communities and enjoy:
+- Experimenting with new UI design patterns
+- Optimizing app performance metrics
+- Mentoring junior developers
+- Participating in hackathons and code challenges
+
+When I'm not building apps, you'll find me:
+♟️ Competing in local chess tournaments (great for strategic thinking!)
+🎹 Playing piano (which helps my sense of timing and rhythm in animations)
+🎨 Exploring Japanese design aesthetics that often inspire my UI work
+
+I believe great apps come from the perfect blend of technical excellence and creative vision - which is exactly what I bring to every project.
+`;
 
 
 export const EXPERIENCES = [
