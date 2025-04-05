@@ -1,4 +1,4 @@
-import { HEROABOUT_TEXT, ABOUT_TEXT } from "../constants";
+import { HEROABOUT_TEXT } from "../constants";
 import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
@@ -32,28 +32,17 @@ const HeroAbout = () => {
             animate="visible"
             className="block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent my-4"
           >
-            Mobile App Developer
+            Flutter Developer
           </motion.span>
 
           <motion.p
             variants={container(0.6)}
             initial="hidden"
             animate="visible"
-            className="my-6 max-w-xl text-lg font-light leading-relaxed"
+            className="my-6 max-w-xl text-lg font-light leading-relaxed whitespace-pre-line"
           >
             {HEROABOUT_TEXT}
           </motion.p>
-
-          <motion.div
-            variants={container(0.9)}
-            initial="hidden"
-            animate="visible"
-            className="mt-8"
-          >
-            <p className="max-w-xl text-lg font-light leading-relaxed">
-              {ABOUT_TEXT}
-            </p>
-          </motion.div>
         </motion.div>
 
         {/* Image (Right) */}
