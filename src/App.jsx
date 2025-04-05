@@ -9,35 +9,36 @@ import { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
-    document.title = "Marouane Dev";
+    // Set page title
+    document.title = "Marouane Dev | Portfolio";
+    
+    // Dynamic favicon (optional)
+    const changeFavicon = () => {
+      const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+      link.rel = 'icon';
+      link.href = '/favicon.ico';
+      document.head.appendChild(link);
+    };
+    changeFavicon();
   }, []);
 
-  const changeFavicon = (iconURL) => {
-    let link = document.querySelector("link[rel~='icon']"); // Find the existing favicon
-    if (!link) {
-      link = document.createElement("link");
-      link.rel = "icon";
-      document.head.appendChild(link);
-    }
-    link.href = iconURL; // Set the new favicon URL
-  };
-
-  changeFavicon("/favicon.ico");
-
   return (
-    <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
-      <div className="fixed top-0 -z-10 h-full w-full">      
-        <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
-      </div>
-      <div className="container mx-auto px-8">
-        <Navbar />
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800 text-neutral-300 antialiased">
+      {/* Fixed Background */}
+      <div className="fixed inset-0 -z-50 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-800 opacity-95" />
+      
+      {/* Navbar (fixed) */}
+      <Navbar />
+      
+      {/* Main Content (with navbar offset) */}
+      <main className="pt-24 pb-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Hero />
         <About />
         <Technologies />
         <Experience />
         <Projects />
         <Contact />
-      </div>
+      </main>
     </div>
   );
 };

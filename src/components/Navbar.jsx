@@ -1,27 +1,35 @@
 import logo from "../assets/MarouaneBelkhdirLogo.png";
-import { SiFiverr } from "react-icons/si"; // Correct import from "si" package
+import { SiFiverr } from "react-icons/si";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
-      {/* Left: Your Logo */}
-      <div className="flex flex-shrink-0 items-center">
-        <a href="https://www.marouanedev.com">
-          <img src={logo} alt="logo" className="h-10 cursor-pointer" />
-        </a>
-      </div>
-
-      {/* Right: Fiverr Gig Link */}
-      <div className="flex items-center gap-2">
-        <a
-          href="https://www.fiverr.com/s/yvbB1PG"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center text-gray-700 hover:text-[#1DBF73] transition-colors"
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-sm shadow-md py-4 px-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        {/* Left: Logo */}
+        <a 
+          href="https://www.marouanedev.com" 
+          className="flex items-center hover:opacity-80 transition-opacity"
         >
-          <span className="mr-2 font-medium">Hire Me</span>
-          <SiFiverr className="text-2xl" /> {/* Correct Fiverr icon */}
+          <img 
+            src={logo} 
+            alt="Marouane Belkhdir Logo" 
+            className="h-10 w-auto" 
+          />
         </a>
+
+        {/* Right: Fiverr Link */}
+        <div className="flex items-center space-x-6">
+          <a
+            href="https://www.fiverr.com/s/yvbB1PG"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-white hover:text-[#1DBF73] transition-colors"
+          >
+            <span className="hidden sm:inline-block mr-2 font-medium">Hire on Fiverr</span>
+            <SiFiverr className="text-2xl" />
+          </a>
+        </div>
       </div>
     </nav>
   );
