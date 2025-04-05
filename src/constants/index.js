@@ -4,13 +4,26 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HEROABOUT_TEXT = `
-I'm a Flutter developer specializing in high-performance cross-platform apps. My expertise includes:
-- Dart/Flutter development
-- State management (Provider, Bloc, Riverpod)
-- Firebase backend integration
-- UI/UX design principles
+I'm a dedicated Flutter developer with 3+ years experience building cross-platform mobile applications. My technical expertise includes:
 
-I focus on clean architecture and polished user experiences. Beyond coding, I enjoy chess (for strategy), piano (for rhythm), and Japanese design inspiration. I bring both technical excellence and creative vision to every project.
+• Flutter/Dart development with clean architecture
+• State management (Provider, Bloc, Riverpod)
+• Firebase integration (Auth, Firestore, Cloud Functions)
+• Custom UI/UX implementation with responsive designs
+• CI/CD pipelines for app deployment
+
+I specialize in creating performant apps with beautiful interfaces that users love. My development process focuses on:
+✓ Maintainable code structure
+✓ Pixel-perfect implementations
+✓ Smooth animations and transitions
+✓ Thorough testing coverage
+
+Beyond coding, I actively contribute to the Flutter community through open-source projects and tech talks. My passion for Japanese design aesthetics influences my approach to creating harmonious user experiences.
+
+When not developing apps, you'll find me:
+♟️ Competing in chess tournaments
+🎹 Composing piano melodies
+🎨 Exploring design trends
 `;
 
 
