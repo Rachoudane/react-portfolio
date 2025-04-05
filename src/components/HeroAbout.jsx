@@ -15,28 +15,29 @@ const HeroAbout = () => {
   return (
     <div className="border-b border-neutral-900 pb-12">
       <div className="flex flex-wrap items-center justify-center">
-        {/* Image (Left) - Smaller sizing */}
+        {/* Image (Left) - Larger sizing */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="w-full lg:w-2/5 lg:order-first" // Changed to w-2/5 (40% width)
+          className="w-full lg:w-1/2 lg:order-first" // Changed back to 50% width
         >
           <div className="flex justify-center lg:justify-end">
             <img 
               src={aboutImg} 
               alt="Marouane Belkhdir"
-              className="rounded-2xl shadow-xl w-full max-w-xs lg:max-w-sm" // Reduced max-w
+              className="rounded-2xl shadow-xl w-full max-w-md lg:max-w-lg" // Increased max-w
+              style={{ maxHeight: "500px" }} // Added height constraint
             />
           </div>
         </motion.div>
 
-        {/* Text Content (Right) - More detailed */}
+        {/* Text Content (Right) */}
         <motion.div 
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="w-full lg:w-3/5 lg:pl-10 mt-8 lg:mt-0" // Changed to w-3/5 (60% width)
+          className="w-full lg:w-1/2 lg:pl-10 mt-8 lg:mt-0" // Back to 50% width
         >
           <h1 className="text-4xl font-thin tracking-tight lg:text-6xl">
             Marouane Belkhdir
@@ -55,7 +56,7 @@ const HeroAbout = () => {
             variants={container(0.6)}
             initial="hidden"
             animate="visible"
-            className="my-4 max-w-xl text-base font-light leading-relaxed whitespace-pre-line"
+            className="my-4 text-base font-light leading-relaxed whitespace-pre-line"
           >
             {HEROABOUT_TEXT}
           </motion.p>
