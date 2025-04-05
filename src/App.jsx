@@ -13,12 +13,12 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-stone-300">
+    <div className="min-h-screen bg-gradient-to-br from-[#0f011d] via-[#1a052a] to-[#0f011d] text-purple-100 transition-colors duration-500">
       {/* Navbar */}
       <Navbar />
       
       {/* Content */}
-      <main className="pt-24 pb-12">
+      <main className="pt-24 pb-12 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <Hero />
           <About />
