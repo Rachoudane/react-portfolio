@@ -4,29 +4,13 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HEROABOUT_TEXT = `
-I'm a passionate Flutter developer specializing in crafting beautiful, high-performance cross-platform mobile applications. With expertise in Dart and the Flutter framework, I build apps that deliver native-like experiences on both iOS and Android platforms.
+I'm a Flutter developer specializing in high-performance cross-platform apps. My expertise includes:
+- Dart/Flutter development
+- State management (Provider, Bloc, Riverpod)
+- Firebase backend integration
+- UI/UX design principles
 
-My development approach combines:
-- Clean, maintainable code architecture
-- Responsive UI/UX design principles
-- State management solutions (Provider, Bloc, Riverpod)
-- Firebase integration for backend services
-- Custom animations and fluid transitions
-
-I take pride in staying at the forefront of Flutter's ecosystem, constantly exploring new packages and best practices. My apps are not just functional - they're polished experiences with attention to detail in every pixel and interaction.
-
-Beyond coding, I'm an active contributor to Flutter communities and enjoy:
-- Experimenting with new UI design patterns
-- Optimizing app performance metrics
-- Mentoring junior developers
-- Participating in hackathons and code challenges
-
-When I'm not building apps, you'll find me:
-♟️ Competing in local chess tournaments (great for strategic thinking!)
-🎹 Playing piano (which helps my sense of timing and rhythm in animations)
-🎨 Exploring Japanese design aesthetics that often inspire my UI work
-
-I believe great apps come from the perfect blend of technical excellence and creative vision - which is exactly what I bring to every project.
+I focus on clean architecture and polished user experiences. Beyond coding, I enjoy chess (for strategy), piano (for rhythm), and Japanese design inspiration. I bring both technical excellence and creative vision to every project.
 `;
 
 
