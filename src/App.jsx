@@ -13,14 +13,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-neutral-300">
-      {/* Navbar with gradient transition */}
+    <div className="min-h-screen bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-stone-300">
+      {/* Navbar */}
       <Navbar />
       
-      {/* Content with smooth start below navbar */}
+      {/* Content */}
       <main className="pt-24 pb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Fade-in effect on scroll would go here */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <Hero />
           <About />
           <Technologies />
@@ -32,5 +31,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
