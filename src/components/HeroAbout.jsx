@@ -25,7 +25,7 @@ const HeroAbout = () => {
           <div className="flex justify-center lg:justify-end">
             <img 
               src={aboutImg} 
-              alt="Marouane Belkhdir"
+              alt="Rachou Corp"
               className="rounded-2xl shadow-xl w-full max-w-md lg:max-w-lg" // Increased max-w
               style={{ maxHeight: "500px" }} // Added height constraint
             />
