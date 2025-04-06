@@ -3,14 +3,12 @@ import { SiFiverr } from "react-icons/si";
 import { FaChevronDown } from "react-icons/fa";
 import logo from "../assets/logoRachouCorp.png";
 
-const Navbar = () => {
+const Navbar = ({ currentLanguage, setCurrentLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState('en'); // 'en' or 'fr'
 
   const toggleLanguage = () => {
     setCurrentLanguage(prev => prev === 'en' ? 'fr' : 'en');
     setIsOpen(false);
-    // You'll add language change logic here
   };
 
   return (
@@ -32,11 +30,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 className="flex items-center gap-1 px-2 py-1 rounded-md hover:bg-[#3a1a6a]/30 transition-colors"
               >
-                {currentLanguage === 'en' ? (
-                  <span className="text-xs">EN</span>
-                ) : (
-                  <span className="text-xs">FR</span>
-                )}
+                <span className="text-xs uppercase">{currentLanguage}</span>
                 <FaChevronDown className={`text-xs transition-transform ${isOpen ? 'rotate-180' : ''}`} />
               </button>
               
