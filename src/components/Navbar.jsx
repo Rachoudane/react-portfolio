@@ -33,9 +33,9 @@ const Navbar = () => {
                 className="flex items-center gap-1 px-2 py-1 rounded-md hover:bg-[#3a1a6a]/30 transition-colors"
               >
                 {currentLanguage === 'en' ? (
-                  <span className="text-xs">🇬🇧</span>
+                  <span className="text-xs">EN</span>
                 ) : (
-                  <span className="text-xs">🇫🇷</span>
+                  <span className="text-xs">FR</span>
                 )}
                 <FaChevronDown className={`text-xs transition-transform ${isOpen ? 'rotate-180' : ''}`} />
               </button>
