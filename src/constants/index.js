@@ -87,5 +87,7 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "59000 Lille, France ",
   phoneNo: "+33 (0)6 29 26 79 25",
-  email: "marouanebelkhdir@hotmail.fr",
+  email: "rachoucorp@gmail.com",
+  github: "https://github.com/rachoudane",
+  fiverr: "https://www.fiverr.com/s/KepLd88"
 };
