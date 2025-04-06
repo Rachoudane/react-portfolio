@@ -69,20 +69,6 @@ const Contact = () => {
             className="space-y-6"
           >
             <a 
-              href={CONTACT.linkedIn} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 group"
-            >
-              <div className="p-2 rounded-lg bg-blue-600/10 border border-blue-600/20 group-hover:bg-blue-600/20 transition-colors">
-                <SiLinkedin className="text-2xl text-blue-400" />
-              </div>
-              <span className="text-neutral-300 group-hover:text-blue-400 transition-colors">
-                LinkedIn Profile
-              </span>
-            </a>
-
-            <a 
               href={CONTACT.github} 
               target="_blank" 
               rel="noopener noreferrer"
