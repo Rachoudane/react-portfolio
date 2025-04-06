@@ -31,10 +31,12 @@ const Contact = ({ currentLanguage }) => {
         className="my-16 text-center text-4xl font-thin tracking-tight md:text-5xl"
       >
         {currentLanguage === "fr"
-          ? "Prenez Contact"
+          ? "Prenez "
           : "Get in "}
         <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-          Touch
+        {currentLanguage === "fr"
+          ? "Contact"
+          : "Touch"}
         </span>
       </motion.h1>
 
