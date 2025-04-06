@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import flutterApp1 from "../assets/projects/project-1.jpg";
+import flutterApp2 from "../assets/projects/project-2.jpg";
+import flutterApp3 from "../assets/projects/project-3.jpg";
+import flutterApp4 from "../assets/projects/project-4.jpg";
 
 export const TEXTS = {
   en: {
@@ -28,56 +28,60 @@ I deliver:
 
 Beyond coding, I enjoy chess strategy, piano composition, and drawing inspiration from Japanese design aesthetics.`,
 
-    EXPERIENCES: [
-      {
-        year: "03/2024 - Present",
-        role: "IT Support Technician",
-        company: "Arsenal",
-        description: `In Arsenal's interactive environment, I provided technical support for gaming kiosks, ensuring smooth operation and resolving issues in real time on embedded systems. This role strengthened my ability to analyze and debug hardware and software problems under pressure while maintaining a focus on delivering effective and timely solutions.`,
-        technologies: ["Embedded Systems", "Debugging", "Technical Support", "Hardware Diagnostics"],
-      },
-      {
-        year: "01/2024 - 02/2024",
-        role: "IT Support Technician",
-        company: "Décathlon Digital",
-        description: `At Décathlon Digital, I collaborated closely with development teams to diagnose and resolve complex technical incidents. I developed strong problem-solving skills and improved my ability to work in fast-paced environments, leveraging diagnostic tools to identify root causes and deliver lasting fixes.`,
-        technologies: ["Troubleshooting", "Incident Management", "Collaboration Tools", "System Analysis"],
-      },
-      {
-        year: "04/2023 - 12/2023",
-        role: "IT Support & Supervisor",
-        company: "Webhelp",
-        description: `As a support technician for IKEA and later a supervisor for Younited Credit, I honed my leadership skills by managing teams and ensuring smooth workflows. I provided technical assistance, oversaw performance, and facilitated quick adaptations to new technologies and systems. This experience enhanced my ability to lead teams effectively while addressing both technical and operational challenges.`,
-        technologies: ["Team Management", "Problem-Solving", "Multi-System Support", "Leadership"],
-      },
+PROJECTS: [
+  {
+    title: "HealthTrack Pro",
+    image: flutterApp1,
+    description: "Comprehensive health management platform with medication tracking, symptom logging, and telehealth features. Features offline-first architecture and end-to-end encryption.",
+    technologies: ["Flutter", "Firebase", "Bloc", "Hive", "Dart"],
+    features: [
+      "Cross-platform (iOS/Android/Web)",
+      "Custom health data visualization",
+      "Secure cloud sync",
+      "Push notification system"
     ],
-
-    PROJECTS: [
-      {
-        title: "Pearl et Pluthon",
-        image: project1,
-        description: "A work-in-progress 2D game inspired by my own two cats. Guide Pearl and Pluthon on a quest to retrieve their favorite toy—a red ball—taken by Rufus, the residence's guard dog. Explore diverse locations, overcome obstacles, and outsmart Rufus to reunite the cats with their cherished toy.",
-        technologies: ["Unity", "C#"],
-      },
-      {
-        title: "2D Chess Game",
-        image: project2,
-        description: "A classic 2D chess video game built with Unity, designed to showcase polished gameplay mechanics, intuitive controls, and a clean, modern UI.",
-        technologies: ["Unity", "C#"],
-      },
-      {
-        title: "React Portfolio",
-        image: project3,
-        description: "This current website—a responsive and modern portfolio built with React, designed to showcase projects, skills, and animations with smooth transitions and clean styling.",
-        technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      },
-      {
-        title: "Expense Tracker",
-        image: project4,
-        description: "A complete expense tracker application built with ASP.NET Core MVC, designed for tracking and managing personal finances efficiently. Features include budget management, expense categorization, and detailed reporting.",
-        technologies: ["ASP.NET Core", "C#", "MVC"],
-      },
+    link: "https://github.com/rachoudane/healthtrack-pro"
+  },
+  {
+    title: "E-Commerce Delivery Suite",
+    image: flutterApp2,
+    description: "Complete logistics solution with real-time tracking, driver dispatch, and payment processing. Supports multiple languages and complex business rules.",
+    technologies: ["Flutter", "Riverpod", "Firestore", "Maps", "Stripe"],
+    features: [
+      "Real-time order tracking",
+      "Optimized routing system",
+      "In-app chat support",
+      "Multi-vendor support"
     ],
+    link: "https://github.com/rachoudane/ecommerce-delivery"
+  },
+  {
+    title: "TaskMaster Pro",
+    image: flutterApp3,
+    description: "Productivity app featuring natural language processing for task creation and team collaboration tools. Includes voice command support and cross-device sync.",
+    technologies: ["Flutter", "GetX", "SQLite", "NLP", "Dart"],
+    features: [
+      "Voice command integration",
+      "Team workspaces",
+      "Custom gesture controls",
+      "Dark/light theme support"
+    ],
+    link: "https://github.com/rachoudane/taskmaster-pro"
+  },
+  {
+    title: "Flutter UI Kit",
+    image: flutterApp4,
+    description: "Open-source collection of production-ready Flutter components with comprehensive documentation and examples. Used by developers worldwide.",
+    technologies: ["Flutter", "Custom Paint", "Animations", "Dart"],
+    features: [
+      "30+ customizable widgets",
+      "Performance benchmarks",
+      "Theming system",
+      "Accessibility support"
+    ],
+    link: "https://github.com/rachoudane/flutter-ui-kit"
+  }
+],
 
     CONTACT: {
       address: "59000 Lille, France",
@@ -112,56 +116,60 @@ Ce que j'apporte :
 
 En dehors du code, j'aime la stratégie aux échecs, composer au piano et m'inspirer de l'esthétique japonaise.`,
 
-    EXPERIENCES: [
-      {
-        year: "03/2024 - Présent",
-        role: "Technicien Support IT",
-        company: "Arsenal",
-        description: `Dans l'environnement interactif d'Arsenal, j'ai fourni un support technique pour les bornes de jeu, assurant leur bon fonctionnement et résolvant les problèmes en temps réel sur des systèmes embarqués. Ce rôle a renforcé ma capacité à analyser et déboguer des problèmes matériels et logiciels sous pression tout en me concentrant sur la fourniture de solutions efficaces et rapides.`,
-        technologies: ["Systèmes Embarqués", "Débogage", "Support Technique", "Diagnostic Matériel"],
-      },
-      {
-        year: "01/2024 - 02/2024",
-        role: "Technicien Support IT",
-        company: "Décathlon Digital",
-        description: `Chez Décathlon Digital, j'ai collaboré étroitement avec les équipes de développement pour diagnostiquer et résoudre des incidents techniques complexes. J'ai développé de solides compétences en résolution de problèmes et amélioré ma capacité à travailler dans des environnements dynamiques, en utilisant des outils de diagnostic pour identifier les causes profondes et fournir des correctifs durables.`,
-        technologies: ["Dépannage", "Gestion d'Incidents", "Outils de Collaboration", "Analyse Système"],
-      },
-      {
-        year: "04/2023 - 12/2023",
-        role: "Support IT & Superviseur",
-        company: "Webhelp",
-        description: `En tant que technicien support pour IKEA puis superviseur pour Younited Credit, j'ai affiné mes compétences en leadership en gérant des équipes et en assurant des workflows fluides. J'ai fourni une assistance technique, supervisé les performances et facilité les adaptations rapides aux nouvelles technologies et systèmes. Cette expérience a renforcé ma capacité à diriger des équipes tout en relevant les défis techniques et opérationnels.`,
-        technologies: ["Gestion d'Équipe", "Résolution de Problèmes", "Support Multi-Systèmes", "Leadership"],
-      },
+PROJECTS: [
+  {
+    title: "HealthTrack Pro",
+    image: flutterApp1,
+    description: "Plateforme complète de gestion santé avec suivi de médicaments, journal des symptômes et fonctionnalités de télémédecine. Architecture offline-first et chiffrement end-to-end.",
+    technologies: ["Flutter", "Firebase", "Bloc", "Hive", "Dart"],
+    features: [
+      "Multiplateforme (iOS/Android/Web)",
+      "Visualisation de données santé",
+      "Synchronisation cloud sécurisée",
+      "Système de notifications push"
     ],
-
-    PROJECTS: [
-      {
-        title: "Pearl et Pluthon",
-        image: project1,
-        description: "Un jeu 2D en cours de développement inspiré de mes deux chats. Guidez Pearl et Pluthon dans une quête pour récupérer leur jouet préféré - une balle rouge - pris par Rufus, le chien de garde de la résidence. Explorez divers lieux, surmontez des obstacles et déjouez Rufus pour réunir les chats avec leur jouet tant aimé.",
-        technologies: ["Unity", "C#"],
-      },
-      {
-        title: "Jeu d'Échecs 2D",
-        image: project2,
-        description: "Un jeu vidéo d'échecs classique en 2D créé avec Unity, conçu pour présenter des mécaniques de jeu polies, des contrôles intuitifs et une interface utilisateur moderne et épurée.",
-        technologies: ["Unity", "C#"],
-      },
-      {
-        title: "Portfolio React",
-        image: project3,
-        description: "Ce site actuel - un portfolio réactif et moderne construit avec React, conçu pour présenter des projets, des compétences et des animations avec des transitions fluides et un style épuré.",
-        technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      },
-      {
-        title: "Gestion de Dépenses",
-        image: project4,
-        description: "Une application complète de suivi des dépenses construite avec ASP.NET Core MVC, conçue pour suivre et gérer efficacement les finances personnelles. Les fonctionnalités incluent la gestion de budget, la catégorisation des dépenses et des rapports détaillés.",
-        technologies: ["ASP.NET Core", "C#", "MVC"],
-      },
+    link: "https://github.com/rachoudane/healthtrack-pro"
+  },
+  {
+    title: "Suite Livraison E-Commerce",
+    image: flutterApp2,
+    description: "Solution logistique complète avec suivi en temps réel, dispatch de livreurs et traitement de paiements. Support multilingue et règles métier complexes.",
+    technologies: ["Flutter", "Riverpod", "Firestore", "Maps", "Stripe"],
+    features: [
+      "Suivi de commande en temps réel",
+      "Système de routage optimisé",
+      "Chat intégré",
+      "Support multi-vendeurs"
     ],
+    link: "https://github.com/rachoudane/ecommerce-delivery"
+  },
+  {
+    title: "TaskMaster Pro",
+    image: flutterApp3,
+    description: "Application de productivité avec traitement de langage naturel pour la création de tâches et outils de collaboration. Support des commandes vocales et synchronisation multi-appareils.",
+    technologies: ["Flutter", "GetX", "SQLite", "NLP", "Dart"],
+    features: [
+      "Commandes vocales",
+      "Espaces d'équipe",
+      "Gestes personnalisés",
+      "Thèmes clair/sombre"
+    ],
+    link: "https://github.com/rachoudane/taskmaster-pro"
+  },
+  {
+    title: "Kit UI Flutter",
+    image: flutterApp4,
+    description: "Collection open-source de composants Flutter prêts pour la production avec documentation complète. Utilisé par des développeurs du monde entier.",
+    technologies: ["Flutter", "Custom Paint", "Animations", "Dart"],
+    features: [
+      "30+ widgets personnalisables",
+      "Benchmarks de performance",
+      "Système de thèmes",
+      "Support accessibilité"
+    ],
+    link: "https://github.com/rachoudane/flutter-ui-kit"
+  }
+],
 
     CONTACT: {
       address: "59000 Lille, France",
