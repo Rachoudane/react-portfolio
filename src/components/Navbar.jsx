@@ -48,12 +48,12 @@ const Navbar = () => {
                   >
                     {currentLanguage === 'en' ? (
                       <>
-                        <span>🇫🇷</span>
+                        <span>FR</span>
                         <span>Français</span>
                       </>
                     ) : (
                       <>
-                        <span>🇬🇧</span>
+                        <span>EN</span>
                         <span>English</span>
                       </>
                     )}
