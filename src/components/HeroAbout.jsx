@@ -40,7 +40,7 @@ const HeroAbout = () => {
           className="w-full lg:w-1/2 lg:pl-10 mt-8 lg:mt-0" // Back to 50% width
         >
           <h1 className="text-4xl font-thin tracking-tight lg:text-6xl">
-            Marouane Belkhdir
+            Rachou Corp
           </h1>
           
           <motion.span
