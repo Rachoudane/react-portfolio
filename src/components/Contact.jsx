@@ -103,7 +103,9 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-12"
         >
-          <form className="space-y-4">
+          <form className="space-y-4"
+            action="https://formspree.io/f/xblgplje"
+            method="POST">
             <input 
               type="text" 
               placeholder="Your Name" 
@@ -111,10 +113,12 @@ const Contact = () => {
             />
             <input 
               type="email" 
+              name="email"
               placeholder="Your Email" 
               className="w-full bg-neutral-900/50 border border-neutral-800 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
             />
             <textarea 
+              name="message"
               placeholder="Your Message" 
               rows="4"
               className="w-full bg-neutral-900/50 border border-neutral-800 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
