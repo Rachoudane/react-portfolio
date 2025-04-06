@@ -23,12 +23,13 @@ const Projects = ({ currentLanguage }) => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/3" // Changed from lg:w-1/4 to lg:w-1/3 for larger width
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-6 rounded-lg shadow-lg hover:shadow-purple-500/20 transition-shadow"
+                className="mb-6 rounded-lg shadow-lg hover:shadow-purple-500/20 transition-shadow scale-150 transform" // Added scale-150
+                style={{ transformOrigin: 'left center' }} // Keeps image aligned left while scaling
               />
             </motion.div>
 
@@ -36,7 +37,7 @@ const Projects = ({ currentLanguage }) => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4 lg:pl-8"
+              className="w-full max-w-xl lg:w-2/3 lg:pl-12" // Adjusted widths and padding
             >
               <h3 className="text-2xl font-bold text-purple-100 mb-2">
                 {project.title}
