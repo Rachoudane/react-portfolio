@@ -1,4 +1,4 @@
-import logo from "../assets/MarouaneBelkhdirLogo.png";
+import logo from "../assets/logoRachouCorp.png";
 import { SiFiverr } from "react-icons/si";
 
 const Navbar = () => {
