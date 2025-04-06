@@ -1,6 +1,5 @@
 import { TEXTS } from "../constants";
 import { motion } from "framer-motion";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const Projects = ({ currentLanguage }) => {
   const { PROJECTS } = TEXTS[currentLanguage || "en"];
@@ -39,22 +38,9 @@ const Projects = ({ currentLanguage }) => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4 lg:pl-8"
             >
-              <div className="flex items-center justify-between">
-                <h3 className="text-2xl font-bold text-purple-100 mb-2">
-                  {project.title}
-                </h3>
-                {project.link && (
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
-                  >
-                    <FiGithub className="mr-1" />
-                    {currentLanguage === "fr" ? "Code" : "Source"}
-                  </a>
-                )}
-              </div>
+              <h3 className="text-2xl font-bold text-purple-100 mb-2">
+                {project.title}
+              </h3>
               
               <p className="mb-4 text-neutral-300 leading-relaxed">
                 {project.description}

@@ -39,8 +39,7 @@ PROJECTS: [
       "Custom health data visualization",
       "Secure cloud sync",
       "Push notification system"
-    ],
-    link: "https://github.com/rachoudane/healthtrack-pro"
+    ]
   },
   {
     title: "E-Commerce Delivery Suite",
@@ -52,8 +51,7 @@ PROJECTS: [
       "Optimized routing system",
       "In-app chat support",
       "Multi-vendor support"
-    ],
-    link: "https://github.com/rachoudane/ecommerce-delivery"
+    ]
   },
   {
     title: "TaskMaster Pro",
@@ -65,8 +63,7 @@ PROJECTS: [
       "Team workspaces",
       "Custom gesture controls",
       "Dark/light theme support"
-    ],
-    link: "https://github.com/rachoudane/taskmaster-pro"
+    ]
   },
   {
     title: "Flutter UI Kit",
@@ -78,8 +75,7 @@ PROJECTS: [
       "Performance benchmarks",
       "Theming system",
       "Accessibility support"
-    ],
-    link: "https://github.com/rachoudane/flutter-ui-kit"
+    ]
   }
 ],
 
@@ -127,8 +123,7 @@ PROJECTS: [
       "Visualisation de données santé",
       "Synchronisation cloud sécurisée",
       "Système de notifications push"
-    ],
-    link: "https://github.com/rachoudane/healthtrack-pro"
+    ]
   },
   {
     title: "Suite Livraison E-Commerce",
@@ -140,8 +135,7 @@ PROJECTS: [
       "Système de routage optimisé",
       "Chat intégré",
       "Support multi-vendeurs"
-    ],
-    link: "https://github.com/rachoudane/ecommerce-delivery"
+    ]
   },
   {
     title: "TaskMaster Pro",
@@ -153,8 +147,7 @@ PROJECTS: [
       "Espaces d'équipe",
       "Gestes personnalisés",
       "Thèmes clair/sombre"
-    ],
-    link: "https://github.com/rachoudane/taskmaster-pro"
+    ]
   },
   {
     title: "Kit UI Flutter",
@@ -166,8 +159,7 @@ PROJECTS: [
       "Benchmarks de performance",
       "Système de thèmes",
       "Support accessibilité"
-    ],
-    link: "https://github.com/rachoudane/flutter-ui-kit"
+    ]
   }
 ],
 
