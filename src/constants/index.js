@@ -66,15 +66,15 @@ PROJECTS: [
     ]
   },
   {
-    title: "Flutter UI Kit",
+    title: "SmartHome Hub",
     image: flutterApp4,
-    description: "Open-source collection of production-ready Flutter components with comprehensive documentation and examples. Used by developers worldwide.",
-    technologies: ["Flutter", "Custom Paint", "Animations", "Dart"],
+    description: "Centralized IoT control system bridging various smart devices through a unified interface. Developed with a focus on real-time communication and energy efficiency monitoring.",
+    technologies: ["Flutter", "Python", "MQTT", "WebSockets", "REST API"],
     features: [
-      "30+ customizable widgets",
-      "Performance benchmarks",
-      "Theming system",
-      "Accessibility support"
+      "Unified device control dashboard",
+      "Real-time energy consumption tracking",
+      "Custom automation scripting",
+      "Cross-platform compatibility"
     ]
   }
 ],
@@ -150,15 +150,15 @@ PROJECTS: [
     ]
   },
   {
-    title: "Kit UI Flutter",
+    title: "Hub SmartHome",
     image: flutterApp4,
-    description: "Collection open-source de composants Flutter prêts pour la production avec documentation complète. Utilisé par des développeurs du monde entier.",
-    technologies: ["Flutter", "Custom Paint", "Animations", "Dart"],
+    description: "Système centralisé de contrôle IoT connectant divers appareils intelligents via une interface unifiée. Développé avec un accent sur la communication en temps réel et le suivi de l'efficacité énergétique.",
+    technologies: ["Flutter", "Python", "MQTT", "WebSockets", "API REST"],
     features: [
-      "30+ widgets personnalisables",
-      "Benchmarks de performance",
-      "Système de thèmes",
-      "Support accessibilité"
+      "Tableau de bord unifié de contrôle",
+      "Suivi de consommation énergétique temps réel",
+      "Scripting d'automatisation personnalisé",
+      "Compatibilité multiplateforme"
     ]
   }
 ],
