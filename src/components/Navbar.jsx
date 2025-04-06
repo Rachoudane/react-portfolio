@@ -1,9 +1,17 @@
+import { useState } from 'react';
 import { SiFiverr } from "react-icons/si";
 import { FaChevronDown } from "react-icons/fa";
 import logo from "../assets/logoRachouCorp.png";
 
-const Navbar = ({ toggleLanguage, currentLanguage }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentLanguage, setCurrentLanguage] = useState('en'); // 'en' or 'fr'
+
+  const toggleLanguage = () => {
+    setCurrentLanguage(prev => prev === 'en' ? 'fr' : 'en');
+    setIsOpen(false);
+    // You'll add language change logic here
+  };
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#14072e]/95 backdrop-blur-sm border-b border-[#3a1a6a]/30">
@@ -21,38 +29,31 @@ const Navbar = ({ toggleLanguage, currentLanguage }) => {
             {/* Language Selector */}
             <div className="relative">
               <button 
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex items-center gap-1 px-3 py-1.5 rounded-md hover:bg-[#3a1a6a]/30 transition-colors"
-                aria-label="Change language"
+                onClick={() => setIsOpen(!isOpen)}
+                className="flex items-center gap-1 px-2 py-1 rounded-md hover:bg-[#3a1a6a]/30 transition-colors"
               >
                 {currentLanguage === 'en' ? (
-                  <span className="text-sm">🇬🇧 English</span>
+                  <span className="text-xs">🇬🇧</span>
                 ) : (
-                  <span className="text-sm">🇫🇷 Français</span>
+                  <span className="text-xs">🇫🇷</span>
                 )}
-                <FaChevronDown className={`text-xs transition-transform ${isMenuOpen ? 'rotate-180' : ''}`} />
+                <FaChevronDown className={`text-xs transition-transform ${isOpen ? 'rotate-180' : ''}`} />
               </button>
               
-              {isMenuOpen && (
-                <div 
-                  className="absolute right-0 mt-2 w-32 bg-[#1a0937] border border-[#3a1a6a]/50 rounded-md shadow-lg overflow-hidden z-50"
-                  onMouseLeave={() => setIsMenuOpen(false)}
-                >
+              {isOpen && (
+                <div className="absolute right-0 mt-2 w-24 bg-[#1a0937] border border-[#3a1a6a]/50 rounded-md shadow-lg overflow-hidden z-50">
                   <button
-                    onClick={() => {
-                      toggleLanguage();
-                      setIsMenuOpen(false);
-                    }}
-                    className="w-full px-4 py-2 text-left text-sm hover:bg-[#3a1a6a]/50 flex items-center gap-2 transition-colors"
+                    onClick={toggleLanguage}
+                    className="w-full px-3 py-2 text-left text-sm hover:bg-[#3a1a6a]/50 flex items-center gap-2"
                   >
                     {currentLanguage === 'en' ? (
                       <>
-                        <span>🇫🇷</span>
+                        <span>FR</span>
                         <span>Français</span>
                       </>
                     ) : (
                       <>
-                        <span>🇬🇧</span>
+                        <span>EN</span>
                         <span>English</span>
                       </>
                     )}
@@ -66,12 +67,12 @@ const Navbar = ({ toggleLanguage, currentLanguage }) => {
               href="https://www.fiverr.com/s/yvbB1PG"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 rounded-full bg-[#3a1a6a]/50 px-3 py-1.5 text-sm transition-all hover:bg-[#4d2588]/60 hover:shadow-purple-500/10"
+              className="flex items-center gap-1 rounded-full bg-[#3a1a6a]/50 px-3 py-1.5 text-sm transition-all hover:bg-[#4d2588]/60"
             >
               <span className="text-[#e8dfff] font-medium">
-                {currentLanguage === 'en' ? 'Hire me' : 'Embauchez-moi'}
+                {currentLanguage === 'en' ? 'Hire me' : 'Embauchez moi'}
               </span>
-              <SiFiverr className="text-lg text-[#d4b9ff] hover:text-[#1DBF73] transition-colors" />
+              <SiFiverr className="text-lg text-[#d4b9ff] hover:text-[#1DBF73]" />
             </a>
           </div>
         </div>
