@@ -3,7 +3,7 @@ import { SiFiverr } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-[#14072e]/95 backdrop-blur-sm border-b border-[#3a1a6a]/30">
+    <nav className="fixed top-0 w-full z-50 bg-[#160b38]/90 backdrop-blur-lg border-b border-[#462a82]/30 shadow-xl">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-2 gap-4">
           <a href="/" className="flex-shrink-0 w-20 md:w-24">
@@ -18,7 +18,7 @@ const Navbar = () => {
             href="https://www.fiverr.com/s/yvbB1PG"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 rounded-full bg-[#3a1a6a]/50 px-3 py-1.5 text-sm transition-all hover:bg-[#4d2588]/60"
+            className="flex items-center gap-1 rounded-full bg-gradient-to-r from-[#462a82] to-[#2a145c] px-4 py-2 text-sm transition-all hover:scale-105"
           >
             <span className="text-[#e8dfff] font-medium">Hire</span>
             <SiFiverr className="text-lg text-[#d4b9ff] hover:text-[#1DBF73]" />

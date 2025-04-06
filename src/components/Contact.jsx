@@ -68,20 +68,7 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-6"
           >
-            <a 
-              href={CONTACT.github} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 group"
-            >
-              <div className="p-2 rounded-lg bg-purple-600/10 border border-purple-600/20 group-hover:bg-purple-600/20 transition-colors">
-                <SiGithub className="text-2xl text-purple-400" />
-              </div>
-              <span className="text-neutral-300 group-hover:text-purple-400 transition-colors">
-                GitHub Profile
-              </span>
-            </a>
-
+            
             <a 
               href={CONTACT.fiverr} 
               target="_blank" 

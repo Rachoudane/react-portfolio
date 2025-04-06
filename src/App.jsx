@@ -7,17 +7,19 @@ import Contact from "./components/Contact";
 
 const App = () => {
   useEffect(() => {
+    document.documentElement.style.scrollBehavior = 'smooth';
     document.documentElement.style.overflowX = 'hidden';
     document.body.style.overflowX = 'hidden';
     
     return () => {
+      document.documentElement.style.scrollBehavior = 'auto';
       document.documentElement.style.overflowX = '';
       document.body.style.overflowX = '';
     };
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0d021b] via-[#1a0937] to-[#0d021b] text-[#f5f0ff]">
+    <div className="min-h-screen bg-gradient-to-br from-[#0a031a] via-[#160b38] to-[#0a031a]">
       <Navbar />
       
       <main className="pt-28 pb-12">
