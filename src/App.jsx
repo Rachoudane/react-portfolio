@@ -7,7 +7,6 @@ import Contact from "./components/Contact";
 
 const App = () => {
   useEffect(() => {
-    // Add critical overflow control
     document.documentElement.style.overflowX = 'hidden';
     document.body.style.overflowX = 'hidden';
     
@@ -18,11 +17,10 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f011d] via-[#1a052a] to-[#0f011d] text-purple-100">
+    <div className="min-h-screen bg-gradient-to-br from-[#0d021b] via-[#1a0937] to-[#0d021b] text-[#f5f0ff]">
       <Navbar />
       
-      <main className="pt-24 pb-12">
-        {/* Strict container matching navbar */}
+      <main className="pt-28 pb-12">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 space-y-24">
           <HeroAbout/>
           <Technologies />
