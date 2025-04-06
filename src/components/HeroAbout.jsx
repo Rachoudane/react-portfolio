@@ -1,4 +1,4 @@
-import { HEROABOUT_TEXT } from "../constants";
+import { TEXTS } from "../constants";
 import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
@@ -11,23 +11,25 @@ const container = (delay) => ({
   }
 });
 
-const HeroAbout = () => {
+const HeroAbout = ({ currentLanguage }) => {
+  const { HEROABOUT_TEXT } = TEXTS[currentLanguage];
+
   return (
     <div className="border-b border-neutral-900 pb-12">
       <div className="flex flex-wrap items-center justify-center">
-        {/* Image (Left) - Larger sizing */}
+        {/* Image (Left) */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="w-full lg:w-1/2 lg:order-first" // Changed back to 50% width
+          className="w-full lg:w-1/2 lg:order-first"
         >
           <div className="flex justify-center lg:justify-end">
             <img 
               src={aboutImg} 
               alt="Rachou Corp"
-              className="rounded-2xl shadow-xl w-full max-w-md lg:max-w-lg" // Increased max-w
-              style={{ maxHeight: "500px" }} // Added height constraint
+              className="rounded-2xl shadow-xl w-full max-w-md lg:max-w-lg"
+              style={{ maxHeight: "500px" }}
             />
           </div>
         </motion.div>
@@ -37,7 +39,7 @@ const HeroAbout = () => {
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="w-full lg:w-1/2 lg:pl-10 mt-8 lg:mt-0" // Back to 50% width
+          className="w-full lg:w-1/2 lg:pl-10 mt-8 lg:mt-0"
         >
           <h1 className="text-4xl font-thin tracking-tight lg:text-6xl">
             Rachou Corp
