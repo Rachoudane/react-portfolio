@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const TEXTS = {
   en: {
+    HEROABOUT_SUBTITLE: "Flutter Developer & UI Specialist",
     HEROABOUT_TEXT: `I'm a Flutter developer with expertise in:
 • Building cross-platform apps with Dart/Flutter
 • Implementing state management solutions
@@ -88,6 +89,7 @@ Beyond coding, I enjoy chess strategy, piano composition, and drawing inspiratio
   },
 
   fr: {
+    HEROABOUT_SUBTITLE: "Développeur Flutter & Spécialiste UI",
     HEROABOUT_TEXT: `Je suis un développeur Flutter spécialisé dans :
 • Développement d'applications multiplateformes avec Dart/Flutter
 • Mise en œuvre de solutions de gestion d'état

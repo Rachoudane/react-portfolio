@@ -51,8 +51,9 @@ const HeroAbout = ({ currentLanguage }) => {
             animate="visible"
             className="block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent my-3"
           >
-            Flutter Developer & UI Specialist
+            {TEXTS[currentLanguage].HEROABOUT_SUBTITLE}
           </motion.span>
+
 
           <motion.p
             variants={container(0.6)}
