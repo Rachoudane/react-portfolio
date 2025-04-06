@@ -28,7 +28,7 @@ const Projects = ({ currentLanguage }) => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-6 rounded-lg shadow-lg hover:shadow-purple-500/20 transition-shadow scale-150 transform" // Added scale-150
+                className="mb-6 rounded-lg shadow-lg hover:shadow-purple-500/20 transition-shadow scale-100 transform" // Added scale-150
                 style={{ transformOrigin: 'left center' }} // Keeps image aligned left while scaling
               />
             </motion.div>
