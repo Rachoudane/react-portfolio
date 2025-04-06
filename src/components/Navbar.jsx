@@ -8,11 +8,11 @@ const Navbar = () => {
       <div className="mx-auto w-full max-w-[calc(100vw-2rem)] px-4 sm:max-w-[calc(100vw-3rem)] sm:px-6 lg:max-w-7xl">
         <div className="flex items-center justify-between py-3">
           {/* Logo - Left aligned but not touching edge */}
-          <a href="/" className="flex-shrink-0 group">
+          <a href="/" className="flex-shrink-0">
             <img 
               src={logo} 
-              alt="Marouane Belkhdir Logo" 
-              className="h-12 w-auto hover:opacity-90 transition-all duration-300 md:h-16 lg:h-20"
+              alt="Logo" 
+              className="h-8 w-auto hover:opacity-80 transition-opacity md:h-10"
             />
           </a>
 
