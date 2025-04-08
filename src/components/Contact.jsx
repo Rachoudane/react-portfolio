@@ -1,6 +1,6 @@
 import { TEXTS } from "../constants";
 import { motion } from "framer-motion";
-import { SiGmail, SiLinkedin, SiGithub, SiFiverr } from "react-icons/si";
+import { SiGmail, SiFiverr, SiMalt } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 
@@ -88,6 +88,20 @@ const Contact = ({ currentLanguage }) => {
               </div>
               <span className="text-neutral-300 group-hover:text-green-400 transition-colors">
                 {currentLanguage === "fr" ? "Profil Fiverr" : "Fiverr Profile"}
+              </span>
+            </a>
+
+            <a
+              href="https://www.malt.fr/profile/marouanebelkhdir"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 group"
+            >
+              <div className="p-2 rounded-lg bg-red-600/10 border border-red-600/20 group-hover:bg-red-600/20 transition-colors">
+                <SiMalt className="text-2xl text-red-400" />
+              </div>
+              <span className="text-neutral-300 group-hover:text-red-400 transition-colors">
+                {currentLanguage === "fr" ? "Profil Malt" : "Malt Profile"}
               </span>
             </a>
           </motion.div>
