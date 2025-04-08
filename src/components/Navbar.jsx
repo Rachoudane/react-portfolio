@@ -34,7 +34,7 @@ const Navbar = ({ currentLanguage, setCurrentLanguage }) => {
               className="flex items-center gap-1 rounded-full bg-[#3a1a6a]/50 px-3 py-1.5 text-sm transition-all hover:bg-[#4d2588]/60"
             >
               <span className="text-[#e8dfff] font-medium">
-                {currentLanguage === 'en' ? 'Hire me' : 'Embauchez moi'}
+                Fiverr
               </span>
               <SiFiverr className="text-lg text-[#d4b9ff] hover:text-[#1DBF73]" />
             </a>
