@@ -1,13 +1,7 @@
-import { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import HeroAbout from "./components/HeroAbout";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import { useEffect } from "react";
+import logoRachouCorp from "./assets/logoRachouCorp.png";
 
 const App = () => {
-  const [currentLanguage, setCurrentLanguage] = useState("en");
-
   useEffect(() => {
     document.documentElement.style.overflowX = 'hidden';
     document.body.style.overflowX = 'hidden';
@@ -19,17 +13,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f011d] via-[#1a052a] to-[#0f011d] text-purple-100">
-      <Navbar currentLanguage={currentLanguage} setCurrentLanguage={setCurrentLanguage} />
-
-      <main className="pt-24 pb-12">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 space-y-24">
-          <HeroAbout currentLanguage={currentLanguage} />
-          <Technologies currentLanguage={currentLanguage} />
-          <Projects currentLanguage={currentLanguage} />
-          <Contact currentLanguage={currentLanguage} />
-        </div>
-      </main>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f011d] via-[#1a052a] to-[#0f011d] text-purple-100 p-8">
+      <div className="text-center space-y-6">
+        <img
+          src={logoRachouCorp}
+          alt="RachouCorp Logo"
+          className="mx-auto w-32 h-32 object-contain"
+        />
+        <h1 className="text-4xl sm:text-5xl font-bold">Site en maintenance</h1>
+        <p className="text-lg sm:text-xl">
+          Nous serons bientôt de retour ! Merci de votre patience.
+        </p>
+      </div>
     </div>
   );
 };
